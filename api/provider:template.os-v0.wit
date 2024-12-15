@@ -1,0 +1,27 @@
+interface provider {
+    variant request {
+        send(send-request),
+        /// history of provider with given node
+        history(string),
+    }
+
+    variant response {
+        send,
+        history(list<provider-message>),
+    }
+
+    record send-request {
+        target: string,
+        message: string,
+    }
+
+    record provider-message {
+        author: string,
+        content: string,
+    }
+}
+
+world provider-template-dot-os-v0 {
+    import provider;
+    include process-v0;
+}

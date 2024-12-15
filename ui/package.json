@@ -1,0 +1,39 @@
+{
+    "name": "ui",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "build:copy": "vite build && mkdir -p ../pkg/ui && rm -rf ../pkg/ui/* && cp -r dist/* ../pkg/ui/",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@huggingface/transformers": "^3.1.0",
+        "@kinode/client-api": "^0.1.0",
+        "@metamask/sdk": "^0.31.1",
+        "@metamask/sdk-react-ui": "^0.29.2",
+        "@xenova/transformers": "^2.17.2",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-router-dom": "^7.0.2"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.15.0",
+        "@types/node": "^22.10.2",
+        "@types/react": "^18.3.12",
+        "@types/react-dom": "^18.3.1",
+        "@vitejs/plugin-react": "^4.3.4",
+        "@webgpu/types": "^0.1.51",
+        "dotenv": "^16.4.7",
+        "eslint": "^9.15.0",
+        "eslint-plugin-react-hooks": "^5.0.0",
+        "eslint-plugin-react-refresh": "^0.4.14",
+        "globals": "^15.12.0",
+        "typescript": "~5.6.2",
+        "typescript-eslint": "^8.15.0",
+        "viem": "^2.21.54",
+        "vite": "^6.0.1"
+    }
+}

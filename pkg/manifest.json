@@ -1,0 +1,16 @@
+[
+    {
+        "process_name": "provider",
+        "process_wasm_path": "/provider.wasm",
+        "on_exit": "None",
+        "request_networking": true,
+        "request_capabilities": [
+            "http_server:distro:sys",
+            "vfs:distro:sys"
+        ],
+        "grant_capabilities": [
+            "http_server:distro:sys"
+        ],
+        "public": true
+    }
+]
