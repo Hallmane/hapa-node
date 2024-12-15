@@ -194,7 +194,7 @@ fn handle_websocket_message(
                     }
                 }
             } else {
-                kiprintln!("no coordinator, going offline");
+                kiprintln!("no coordinator, going offline.");
                 state.safe_transition(ProviderEvent::Kicked, channel_id)?;
             }
 
