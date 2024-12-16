@@ -1,15 +1,6 @@
 // provider/ui/src/App.tsx
 
-//@ts-ignore
-import { GetProviderData } from "./components/GetProviderData";
-//@ts-ignore
-import { RegisterAPI } from "./components/RegisterAPI";
-//@ts-ignore
-import { SetOnlineStatus } from "./components/SetOnlineStatus";
-//@ts-ignore
-import { CHAIN } from "./shared_imports";
 import { ProviderDashboard } from "./components/ProviderDashboard";
-import { useEffect, useState } from "react";
 
 function App() {
   //const [ourAddress, setOurAddress] = useState<string>("");
