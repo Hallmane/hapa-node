@@ -3,4 +3,4 @@ export const PROXY_TARGET = `${import.meta.env.VITE_NODE_URL || 'http://localhos
 export const WEBSOCKET_URL = import.meta.env.DEV
     ? `${PROXY_TARGET.replace('http', 'ws')}`
     : undefined;
-export const PROVIDER_PROCESS_NAME = 'provider:provider:heiligtum.os';
+export const PROVIDER_PROCESS_NAME = 'provider:provider:haecceity.os';

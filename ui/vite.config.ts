@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import path from "path";
 
 dotenv.config({ path: path.resolve(__dirname, "../../.env") });
-const BASE_URL = `/provider:provider:heiligtum.os`;
+const BASE_URL = `/provider:provider:haecceity.os`;
 const PROXY_URL = (
     process.env.VITE_NODE_URL || 'http://127.0.0.1:8080'
 ).replace('localhost', '127.0.0.1');

@@ -5,12 +5,12 @@
     "properties": {
         "package_name": "provider",
         "current_version": "0.1.0",
-        "publisher": "heiligtum.os",
+        "publisher": "haecceity.os",
         "mirrors": [
-		"heiligtum.os"
+		    "heiligtum.os"
 	],
         "code_hashes": {
-            "0.1.0": "615a8660c829afab56875cfb5418112193d3dacffdbcd67f9cd4bfbd79176338"
+            "0.1.0": "483fbd715c6730279814d5b0212a21e378d1a348608ecbbb3e3b0a2f08c2284a"
         },
         "wit_version": 0,
         "dependencies": []
