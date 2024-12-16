@@ -6,7 +6,9 @@
         "package_name": "provider",
         "current_version": "0.1.0",
         "publisher": "heiligtum.os",
-        "mirrors": [],
+        "mirrors": [
+		"heiligtum.os"
+	],
         "code_hashes": {
             "0.1.0": "615a8660c829afab56875cfb5418112193d3dacffdbcd67f9cd4bfbd79176338"
         },
