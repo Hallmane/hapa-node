@@ -1,7 +1,7 @@
 {
     "name": "provider",
-    "description": "",
-    "image": "",
+    "description": "embedding provider node for an API coordiator",
+    "image": "https://static.wikia.nocookie.net/1661b5bd-1b9c-4567-a152-99082e7aa5f4/scale-to-width/755",
     "properties": {
         "package_name": "provider",
         "current_version": "0.1.0",
