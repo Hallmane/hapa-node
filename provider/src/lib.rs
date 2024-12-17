@@ -251,7 +251,7 @@ fn handle_http_request(
             //let coordinator = kinode_process_lib::Address::from_str(&register_request.coordinator_address)?;
 
             // Send Request to coordinator and await Response
-            let coordinator = Address::from_str("heiligtum.os@coordinator:coordinator:template.os")?;
+            let coordinator = Address::from_str("pertinent.os@coordinator:coordinator:haeceity.os")?;
             kiprintln!("trying to register under coordinator: {:?}", coordinator);
 
             let provider_event: ProviderEvent;
@@ -320,7 +320,7 @@ fn handle_http_request(
         "/coordinators" => {
             // TODO: Hardcoded coordinator list for now, but should be something else
             let coordinators = serde_json::json!([{
-                "address": "heiligtum.os",
+                "address": "pertinent.os",
                 "requiredModels": ["clip-vit-base-patch16"],
             }]);
 
